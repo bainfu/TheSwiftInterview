@@ -48,7 +48,7 @@ class BombTriggerAdd {
     }
     
     func triggerBomb() {
-       var bombExplosion = """
+       let bombExplosion = """
             _.-^^---....,,--       
         _--                  --_  
        <                        >)
