@@ -1,4 +1,8 @@
 @testable import SwiftInterview
+import PlaygroundSupport
+import Foundation
+
+PlaygroundPage.current.needsIndefiniteExecution = true
 
 var welcome = "Welcome to Fib Playground"
 
@@ -18,5 +22,6 @@ do {
     var error = "Error Fetching fib value"
     print(error)
 }
+
 
 var end = "The End"
